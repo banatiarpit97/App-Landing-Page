@@ -1,5 +1,7 @@
 .jumbotron{
-	background: url(http://freenaturestock.s3.amazonaws.com/166.jpg) ;
+	background: url(http://freenaturestock.s3.amazonaws.com/166.jpg);
+	background-size: 100% 100%;
+	height: 91%;
 }
 
 .container{
@@ -33,11 +35,48 @@
 }
 
 .buttons{
-	margin-top: 3%;
+	margin-top: 2.5%;
 }
 .find_more{
 	margin-right: 2%;
 }
+.tryIt{
+	margin-top: 3%;
+	text-align: center;
+}
+.tryIt h2{
+	color: black;
+	text-decoration: none;
+}
+#TryItLinks:hover{
+	text-decoration: none;
+}
+.links{
+	margin-top: 1%;
+}
+.apple{
+	width: 22%;
+	margin-right: 2%;
+	cursor: pointer;
+}
+.android{
+	width: 26%;
+	cursor: pointer;
+}
+/*.down{
+	text-align: center;
+	margin-top: 12%;
+}
+.fa-angle-down{
+	color: black;
+	font-size: 3em;
+	cursor: pointer;
+}*/
+/*@media(min-width: 992px){
+	tryIt{
+		margin-left: 0;
+	}
+}*/
 @media(min-width: 480px) and (max-width: 768px){
 	.logo{
 		height: 50px;
@@ -48,7 +87,7 @@
 
     }
 	.jumbotron{
-		height: 60%;
+		height: 70%;
 	}
 	.intro h1{
 		font-size: 33px;
@@ -60,8 +99,22 @@
 		text-align: center;
 	}
 	.buttons{
-	margin-top: 7%;
+	margin-top: 5%;
+    }
+    .apple{
+    	width: 25%;
+    }
+    .android{
+    	width: 29%;
+    }
 }
+@media(min-width: 480px) and (max-width: 615px){
+	.apple{
+    	width: 30%;
+    }
+    .android{
+    	width: 35%;
+    }
 }
 
 @media(max-width: 480px){
@@ -89,11 +142,17 @@
 		margin-top: 2%;
 	}
 	.find_more{
-		margin-bottom: 4%;
+		margin-bottom: 6%;
 		margin-right: 0;
 	}
 	.buttons{
 	margin-top: 8%;
+    }
+    .apple{
+    	width: 34%;
+    }
+    .android{
+    	width: 41%;
     }
 }
 
@@ -107,4 +166,10 @@
 		display: block;
 		margin: auto;
 	}
+	.apple{
+    	width: 34%;
+    }
+    .android{
+    	width: 41%;
+    }
 }
