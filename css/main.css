@@ -1,0 +1,110 @@
+.jumbotron{
+	background: url(http://freenaturestock.s3.amazonaws.com/166.jpg) ;
+}
+
+.container{
+	margin-left: 55px;
+	margin-right: 55px;
+
+}
+
+.logo{
+	height: 75px;
+}
+.intro{
+	color: white;
+	margin-top: 5%;
+}
+.buttons{
+   
+}
+.download, .find_more{
+     color: white;
+     font-weight: bold;
+     background-color: rgb(145, 82, 58);
+     opacity: 0.5;
+     border-radius: 10px;
+     width: 180px;
+}
+.download:hover, .find_more:hover{
+     color: white;
+     background-color: rgb(145, 82, 58);
+     opacity: 1;
+}
+
+.buttons{
+	margin-top: 3%;
+}
+.find_more{
+	margin-right: 2%;
+}
+@media(min-width: 480px) and (max-width: 768px){
+	.logo{
+		height: 50px;
+	}
+	.container{
+	margin-left: 40px;
+	margin-right: 40px;
+
+    }
+	.jumbotron{
+		height: 60%;
+	}
+	.intro h1{
+		font-size: 33px;
+	}
+	.intro p{
+		font-size: 17px;
+	}
+	.intro, .buttons{
+		text-align: center;
+	}
+	.buttons{
+	margin-top: 7%;
+}
+}
+
+@media(max-width: 480px){
+	.logo{
+		height: 44px;
+	}
+	.container{
+	margin-left: 20px;
+	margin-right: 20px;
+
+    }
+	.jumbotron{
+		height: 70%;
+	}
+	.intro h1{
+		font-size: 33px;
+	}
+	.intro p{
+		font-size: 15px;
+	}
+	.intro, .buttons{
+		text-align: center;
+	}
+	.intro{
+		margin-top: 2%;
+	}
+	.find_more{
+		margin-bottom: 4%;
+		margin-right: 0;
+	}
+	.buttons{
+	margin-top: 8%;
+    }
+}
+
+@media(min-width: 434px) and (max-width: 480px)
+{
+	.find_more{
+		margin-bottom: 15px !important;
+		margin-right: 0;
+	}
+	.find_more, .download{
+		display: block;
+		margin: auto;
+	}
+}
